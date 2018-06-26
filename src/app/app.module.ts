@@ -1,18 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
+import { AgmCoreModule } from '@agm/core';
+
+import { MapasService } from './services/mapas.service'
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    NavbarComponent  ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBiIipwt1m8mw-py8Ia3kUsUZYOvq545Sw'
+    })
   ],
-  providers: [],
+  providers: [MapasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
