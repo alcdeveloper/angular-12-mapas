@@ -8,10 +8,10 @@ export class MapasService {
 
   constructor() {
   		let nuevoMarcador:Marcador ={
-				  lat: 37.356513484169476,
-				  lng: -5.981755256652832,
-				  titulo:"Estadio Benito Villamarin",
-				  desc:"El Estadio Benito Villamarín se ubica en la avenida de la Palmera, en el barrio de Heliópolis, en la ciudad de Sevilla, Andalucía, España. Pertenece al Real Betis Balompié. Se trata del estadio más grande de Andalucía y el cuarto de España.",
+				  lat: 77.356513484169476,
+				  lng: -9.981755256652832,
+				  titulo:"Una ubicacioón  cualquiera",
+				  desc:"Una ubicacioón  cualquiera",
 				  draggable:true
   		}
 
