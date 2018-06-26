@@ -19,7 +19,7 @@ import { MapasService } from './services/mapas.service'
     BrowserModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBiIipwt1m8mw-py8Ia3kUsUZYOvq545Sw'
+      apiKey: ''
     })
   ],
   providers: [MapasService],
